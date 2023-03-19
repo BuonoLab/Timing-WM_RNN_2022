@@ -2,9 +2,9 @@ This code is for simulating the main results in the paper: Multiplexing working 
 
 Brief description:
   We trained RNNs to perform three tasks (check the paper for more details): 
-  1, dDNMS task for pure working memory;
-  2, ITdDNMS task for working memory +  timing;
-  3, InterCueAssoc for interval cue association.
+  1, dDNMS task for pure working memory (WM);
+  2, ITdDNMS task for timing + working memory (T + WM);
+  3, InterCueAssoc for interval cue association (ISA).
 
   Tensorflow (v2.1.0) was used for optimizations.
   
@@ -16,7 +16,7 @@ To use:
   Learned parameters including recurrent weights, output weights, etc. were saved under separate file folders.
 
   Second, run 'MULTI_Output' for testing the learned RNNs to get the dynamics of a given task.
-  Data were then ported to .mat files for further analysis in Matlab.
+  Data were ported to .mat files for further analysis in Matlab.
 
 
 
